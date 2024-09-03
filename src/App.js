@@ -5,7 +5,7 @@ const Spline = lazy(() => import("@splinetool/react-spline"));
 
 function App() {
   return (
-    <main className="min-h-screen">
+    <main className="container">
       <Suspense fallback={<div>Loading...</div>}>
         <Spline scene="https://prod.spline.design/9J3K5TNzaDjebq7Z/scene.splinecode" />
       </Suspense>
